@@ -1,22 +1,27 @@
-
-
-
-
-
-
-
-
-.homePage, .gamePage {
-  background-image: url("https://images.unsplash.com/photo-1593476366803-cff071151082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zmxvd2VyJTIwZmllbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
-  background-size: cover;
+#board {
+  background-color: #eedced;
+  height: 600px;
+  width: 900px;
+  opacity: .85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.homePage {
+
+
+
+
+
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1593476366803-cff071151082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zmxvd2VyJTIwZmllbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.indexTitle{
+h1 {
   font-size: 100px;
   color: #5e9444;
   text-shadow: 2px 2px #4a7640;
