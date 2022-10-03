@@ -11,3 +11,5 @@ The plan for the game (including how to get started) will be included below in t
 [Trello Board!](https://trello.com/invite/b/rfZPE9jB/341e1f953a6daddfb77247f786a8ca36/flowerpatchmemory)
 
 ## Credits
+
+Background Photo: https://unsplash.com/photos/FlZdrpvzORY
