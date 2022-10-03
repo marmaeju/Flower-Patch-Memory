@@ -27,6 +27,12 @@
   margin-bottom: 50px;
 }
 
+img {
+  height: 285px;
+  width: 285px;
+  display: none;
+}
+
 
 
 
