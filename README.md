@@ -12,4 +12,10 @@ The plan for the game (including how to get started) will be included below in t
 
 ## Credits
 
-Background Photo: https://unsplash.com/photos/FlZdrpvzORY
+[Background Photo](https://unsplash.com/photos/FlZdrpvzORY)
+
+[CornFlower Photo](https://cdn.pixabay.com/photo/2016/05/26/23/02/blue-1418732_960_720.jpg)
+
+[Poppy Photo](https://cdn.pixabay.com/photo/2018/05/25/20/55/poppy-3430058__340.jpg)
+
+[Pink Cosmos Photo](https://cdn.pixabay.com/photo/2019/08/21/18/30/cosmea-4421744__340.jpg)
