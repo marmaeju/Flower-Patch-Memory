@@ -16,17 +16,17 @@ console.log(cosmos)
 
 // const restartGame = () => {}
 
-const match = () => {
-  if (cornFlower === cornFlower) {
-    card.children.item(0).style.display = 'block'
-  } else if (poppy === poppy) {
-    card.children.item(0).style.display = 'block'
-  } else if (comsos === cosmos) {
-    card.children.item(0).style.display = 'block'
-  } else {
-    card.children.item(0).style.display = 'none'
-  }
-}
+// const match = () => {
+//   if (cornFlower === cornFlower) {
+//     card.children.item(0).style.display = 'block'
+//   } else if (poppy === poppy) {
+//     card.children.item(0).style.display = 'block'
+//   } else if (comsos === cosmos) {
+//     card.children.item(0).style.display = 'block'
+//   } else {
+//     card.children.item(0).style.display = 'none'
+//   }
+// }
 
 // const shuffle = (array) => {
 //   console.log(array)
