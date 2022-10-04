@@ -1,8 +1,14 @@
 let cards = document.querySelectorAll('.card')
 let cardFace = document.querySelectorAll('.cardFace')
+let cornFlower = document.querySelectorAll('.cornFlower')
+let poppy = document.querySelectorAll('.poppy')
+let cosmos = document.querySelectorAll('.cosmos')
 const restartBtn = document.getElementsByClassName('restartBtn')
 
 console.log(cardFace)
+console.log(cornFlower)
+console.log(poppy)
+console.log(cosmos)
 
 // let cardsArr = [...cards]
 
@@ -10,7 +16,18 @@ console.log(cardFace)
 
 // const restartGame = () => {}
 
-// const match = () => {}
+const match = () => {
+  if (cornFlower === cornFlower) {
+    card.children.item(0).style.display = 'block'
+  } else if (poppy === poppy) {
+    card.children.item(0).style.display = 'block'
+  } else if (comsos === cosmos) {
+    card.children.item(0).style.display = 'block'
+  } else {
+    card.children.item(0).style.display = 'none'
+  }
+}
+
 // const shuffle = (array) => {
 //   console.log(array)
 //   let curIndex = array.length - 1
@@ -33,9 +50,9 @@ console.log(cardFace)
 // }
 // cards = shuffle(cards)
 // console.log(cards)
-for (i = cardFace.length; i >= 0; i--) {
-  cards.appendChild(cardFace[(Math.random() * i) | 0])
-}
+// for (i = cardFace.length; i >= 0; i--) {
+//   cards.appendChild(cardFace[(Math.random() * i) | 0])
+// }
 
 cards.forEach((card) => {
   card.addEventListener('click', () => {
