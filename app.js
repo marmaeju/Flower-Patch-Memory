@@ -3,6 +3,7 @@ let cardFaces = document.querySelectorAll('.cardFace')
 let cornFlower = document.querySelectorAll('.cornFlower')
 let poppy = document.querySelectorAll('.poppy')
 let cosmos = document.querySelectorAll('.cosmos')
+let announcer = document.querySelector('.announce')
 const restartBtn = document.querySelector('.restartBtn')
 
 let copyCardFaces = []
@@ -66,11 +67,11 @@ for (i = 0; i < cosmos.length; i++) {
 }
 
 if (cards.length === 2 && cornFlowerArr[0] === cornFlowerArr[1]) {
-  console.log('you made a match')
+  announcer.innerHTML = 'You made a match!'
 } else if (cards.length === 2 && poppyArr[0] === poppyArr[1]) {
-  console.log('you made a match')
+  announcer.innerHTML = 'You made a match!'
 } else if (cards.length === 2 && cosmosArr[0] === cosmosArr[1]) {
-  console.log('you made a match')
+  announcer.innerHTML = 'You made a match!'
   // } else if (cardFaces.style.display === 'block') {
   //   console.log('you did it')
   // } else {

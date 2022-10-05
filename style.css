@@ -55,6 +55,16 @@ h1 {
   text-shadow: 2px 2px #4a7640;
 }
 
+.titleLevel {
+  margin-bottom: 0;
+}
+.announce {
+  color: #7286f3;
+  text-shadow: 2px 2px #4945c2;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
 .instructionsBox {
   color: #7286f3;
   padding: 50px 100px 50px 100px;
