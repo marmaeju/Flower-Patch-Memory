@@ -49,6 +49,9 @@ for (i = 0; i < cards.length; i++) {
           console.log('youve matched poppy')
         } else {
           console.log('not a match')
+          //both cards need to be flipped when not a match
+          event.target.children.item(0).style.display = 'none'
+          event.target.children.item(0).style.display = 'none'
         }
 
         // event.currentTarget.children.item(0).style.display = 'none'
@@ -80,8 +83,8 @@ for (i = 0; i < cards.length; i++) {
 //
 // }
 
-// restartBtn.addEventListener('click', () => {
-//   cards.innerHTML = ''
-// })
+restartBtn.addEventListener('click', () => {
+  console.log('clicked')
+})
 
 // gameStart()
