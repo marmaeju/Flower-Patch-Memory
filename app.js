@@ -12,6 +12,15 @@ let cosmosCounter = 0
 let cornFlowerCounter = 0
 let poppyCounter = 0
 
+let cardFlip = (event) => {
+  event.target.children.item(0).style.display = 'none'
+  console.log('cardflip')
+}
+let flip2 = (cardDiv) => {
+  cardDiv.children.item(0).style.display = 'none'
+  console.log('flip2')
+}
+let previousTarget = ''
 // let shuffle = () => {
 for (i = 0; i < cardFaces.length; i++) {
   copyCardFaces.push(cardFaces[i])
@@ -28,7 +37,24 @@ for (i = 0; i < cards.length; i++) {
   cards[i].classList.add(shuffledCardFaces[i].classList[1])
   cards[i].addEventListener('click', (event) => {
     event.currentTarget.children.item(0).style.display = 'block'
-    if (tally < 2) {
+    // previousTarget = event.currentTarget.id
+    console.log(previousTarget)
+    if (tally < 1) {
+      tally++
+      if (event.currentTarget.classList.contains('cosmos')) {
+        cosmosCounter++
+        console.log('This is the cosmos', cosmosCounter)
+        previousTarget = event.currentTarget.id
+      } else if (event.currentTarget.classList.contains('cornFlower')) {
+        cornFlowerCounter++
+        console.log('this is corn flower', cornFlowerCounter)
+        previousTarget = event.currentTarget.id
+      } else if (event.currentTarget.classList.contains('poppy')) {
+        poppyCounter++
+        console.log('this is poppy', poppyCounter)
+        previousTarget = event.currentTarget.id
+      }
+    } else if (tally < 2) {
       tally++
       if (event.currentTarget.classList.contains('cosmos')) {
         cosmosCounter++
@@ -52,9 +78,12 @@ for (i = 0; i < cards.length; i++) {
           announcer.innerHTML = "You've collected Poppies!"
         } else {
           console.log('not a match')
-          // announcer.innerHTML = 'Try again!'
-          //both cards need to be flipped when not a match
-          event.target.children.item(0).style.display = 'none'
+          // shuffledCardFaces.style.display = 'none'
+
+          let otherCard = document.getElementById(previousTarget)
+          console.log(otherCard)
+          setTimeout(() => flip2(otherCard), 1250)
+          setTimeout(() => cardFlip(event), 1250)
           announcer.innerHTML = 'Try again!'
         }
 
