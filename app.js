@@ -43,15 +43,19 @@ for (i = 0; i < cards.length; i++) {
       if (tally === 2) {
         if (cosmosCounter === 2) {
           console.log('youve matched cosmos')
+          announcer.innerHTML = "You've picked Cosmos!"
         } else if (cornFlowerCounter === 2) {
           console.log('youve matched corn flower')
+          announcer.innerHTML = "You've gathered Cornflowers!"
         } else if (poppyCounter === 2) {
           console.log('youve matched poppy')
+          announcer.innerHTML = "You've collected Poppies!"
         } else {
           console.log('not a match')
+          // announcer.innerHTML = 'Try again!'
           //both cards need to be flipped when not a match
           event.target.children.item(0).style.display = 'none'
-          event.target.children.item(0).style.display = 'none'
+          announcer.innerHTML = 'Try again!'
         }
 
         // event.currentTarget.children.item(0).style.display = 'none'
