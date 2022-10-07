@@ -8,6 +8,7 @@ let tally = 0
 let cosmosCounter = 0
 let cornFlowerCounter = 0
 let poppyCounter = 0
+let previousTarget = ''
 
 let cardFlip = (event) => {
   event.target.children.item(0).style.display = 'none'
@@ -15,7 +16,6 @@ let cardFlip = (event) => {
 let flip2 = (cardDiv) => {
   cardDiv.children.item(0).style.display = 'none'
 }
-let previousTarget = ''
 
 let shuffle = () => {
   for (i = 0; i < cardFaces.length; i++) {
@@ -65,7 +65,6 @@ let winGame = () => {
             announcer.innerHTML = "You've collected Poppies!"
           } else {
             let otherCard = document.getElementById(previousTarget)
-            console.log(otherCard)
             setTimeout(() => flip2(otherCard), 800)
             setTimeout(() => cardFlip(event), 800)
             announcer.innerHTML = 'Try again!'
@@ -74,7 +73,6 @@ let winGame = () => {
           cosmosCounter = 0
           cornFlowerCounter = 0
           poppyCounter = 0
-          console.log(tally)
         }
       }
     })
