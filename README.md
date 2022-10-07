@@ -4,8 +4,6 @@
 
 ## A Memory Game Of Flowers
 
----
-
 The game starts by taking the player to a home page with instructions on how to play the game. Once ready to play the player can click the "Play the Game!" button and be taken to the playable level page.
 
 The player will play the game by pairing two of the same flower to make a match. The game will have a level where the player will match 6 cards. Once the player completes all the matches they will click the "Finished?" button and the game will end.
@@ -13,8 +11,6 @@ The player will play the game by pairing two of the same flower to make a match.
 ![img](https://lh3.googleusercontent.com/SP63wAmmXw8gqtCskNFcu8R-pqX-32Z-mgPdXsLJMjbY9zRo-fySZMyJMd8rZlJB3qKFre2Xua0vGTodMLxWKUQfvEhvI7Ouu9tHvsw9Im_QvDbj0NB3KSfFCp86l5DNDR2gHh3CogVA4LKuKr03VymTRc_GjK8aJv0ePtWjSIdMYhITUx4K-YFmF0bGHNBXv5lLJ5zQrI_xL5RupFbVmk0fvREEWj7AWu20U0BWuq1kTOts6SFQBF1I_t9sJyLgR0wQhrkqlxqfjO6ALPY7pQuu7QWaToOXfKMtj111q1DLXB-kDmW0puuOLmBQw3fRfodmv4LfoFakIy8MIr6RUHGBhlVt0X4otwe_asMOX20Rkz6SnuALMDVEvFUjaUuaIIXVBga45CKqbo_IsDelWqiV-gj-tEaQ37-JAR_2qCEhzxVUAgKjJfd-I_t-XFAsnYeBj_k0vLTqYU-I0ZJkN_mX9wfmyy5ZVPgelcw_QE3fQcgKHFtKzFJ43mKLFL35YCzM6a9tJ4D-r6OEkGZ8HFbc8KhHb6j1XVLayJlLBlhlXYg5HyRyRdW-AbeMLeXahfgm1Hr62wY6ewlLQZS78luFBBxCLxwOG_zgJgyd-sDm20BLawCEumedooKVG_7y3lTGDmmka0SSnBKuMAFlD7QgC4Y2I28IB6JwSXM3dSsROPmksiTqEKLXxHbFbIEl2gXo9xRKf6M2tpcX4JZzHqYTkIEDiSCB6p4bpMcyIdvJN-e61m_n-56wdWljqWE0UeUeB2E5vOU1yiSy5pAJCgtxQIaO2-e25qC64_ys9l7S7bbguxcIo7326FFI2hWdxrEG-mcI7BObV-DeTHI0Au1pQCxXq7bgT-mD9TpDY0LaQWlwNNCSNxVA2OAdP70y322fCWNrXx02pr8k1GEIX7iiiu1bdBxFrzsv4khxEQ=w3456-h1932-no?authuser=0x)
 
 ## How To Get Started
-
----
 
 - Fork and Clone this repository and cd into the repository
 - Open the directory with VS code using code . in terminal
@@ -26,15 +22,11 @@ The player will play the game by pairing two of the same flower to make a match.
 
 ## Extra Links
 
----
-
 [Flower Patch Memory Game](https://flower-patch-memory.surge.sh/index.html)
 
 ---
 
 [Trello Board](https://trello.com/invite/b/rfZPE9jB/341e1f953a6daddfb77247f786a8ca36/flowerpatchmemory)
-
----
 
 ## Credits
 
