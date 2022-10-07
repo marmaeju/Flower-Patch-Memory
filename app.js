@@ -2,12 +2,9 @@ let cards = document.querySelectorAll('.card')
 let cardFaces = document.querySelectorAll('.cardFace')
 let announcer = document.querySelector('.announce')
 const finishBtn = document.querySelector('.finishBtn')
-
 let copyCardFaces = []
 let shuffledCardFaces = []
-
 let tally = 0
-
 let cosmosCounter = 0
 let cornFlowerCounter = 0
 let poppyCounter = 0
@@ -90,7 +87,8 @@ const gameStart = () => {
 }
 
 finishBtn.addEventListener('click', () => {
-  announcer.innerHTML = 'You gathered all the flowers! Congratulations!'
+  announcer.innerHTML =
+    'You gathered all the flowers and won the game! Congratulations!'
 })
 
 gameStart()
